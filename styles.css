@@ -1,29 +1,35 @@
 /* styles.css */
 
-/* Προσθέστε εδώ τα δικά σας styles */
-
-/* Παράδειγμα:
-#posts ul {
-  list-style: none;
-  padding: 0;
+body {
+   font-family: sans-serif; 
+   max-width: 600px;
+   margin: auto;
+   padding: 20px;
+   background-color: white;
 }
 
-#posts li {
-  padding: 10px;
+.main {
+  background-color: rgb(234, 245, 245);
+  margin: 25px 5px;
+  padding: 25px;
+}
+
+h1, h2 {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding: 20px;
+}
+
+.post {
   cursor: pointer;
+  margin-bottom: 25px;
+  text-decoration: underline;
 }
 
-#posts li:hover {
-  background-color: #f0f0f0;
+.active-post {
+  background-color: #345f5f;
+  color: white;
+  border: 10px solid #345f5f;
+  margin: 10px;
 }
-
-.active {
-  background-color: #e0e0e0;
-}
-
-@media (max-width: 600px) {
-  #posts, #details {
-    width: 100%;
-  }
-}
-*/
